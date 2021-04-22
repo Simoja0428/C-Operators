@@ -9,7 +9,7 @@ The addition operator is used when we want to add the values of two or more numb
 
 ```c++
 int sum = 1 + 2;
-double dSum = 1.5 + 3.2;
+double dSum = 1.5 + 3.2 + 1.0;
 int wSum = 1.5 + 3;
 ```
 
@@ -17,7 +17,7 @@ The values of the variables in the code above are as follows:
 
 ```
 Value of sum: 3
-Value of dSum: 4.7
+Value of dSum: 5.7
 Value of wSum: 4
 ```
 
