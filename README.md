@@ -18,7 +18,7 @@ The values of the variables in the code above are as follows:
 ```
 Value of sum: 3
 Value of dSum: 4.7
-Value of wSum = 4
+Value of wSum: 4
 ```
 
 ### Subtraction
