@@ -22,15 +22,71 @@ Value of wSum: 4
 ```
 
 ### Subtraction
+The subtracion operator is used when we want to subract one or more numbers from a value. When subracting numbers, we will want to make sure that we have this new value stored in a seperate variable for later usage. Further, it is important to be concious of the types of all variables used in the operation. Remember, integers do not account for decimal values and forgetting this could lead to bugs in your future programs. Below are some examples of using the subtraction operator in C++.
 
+```c++
+int val = 5 - 2;
+double dVal = 3.2 - 4.0;
+int wVal = 4.5 - 3;
+```
+
+The values of the variables in the code above are as follows:
+
+```
+Value of val: 3
+Value of dVal: -0.8
+Value of wVal: 1
+```
 
 ### Multiplication
+The multiplication operator is used when we want to multiply two or more values together. When multiplying numbers, we will want to make sure that we have this new value stored in a seperate variable for later usage. Further, it is important to be concious of the types of all variables used in the operation. Remember, integers do not account for decimal values and forgetting this could lead to bugs in your future programs. Below are some examples of using the multiplication operator in C++.
 
+```c++
+int mul = 4 * 3;
+double dMul = 1.5 * 2.0;
+int wMul = 4.5 * 3;
+```
+
+The values of the variables in the code above are as follows:
+
+```
+Value of mul: 12
+Value of dMul: 6.0
+Value of wMul: 12
+```
 
 ### Division
+The division operator is used when we want to divide one or more numbers from a value. When dividing numbers, we will want to make sure that we have this new value stored in a seperate variable for later usage. Further, it is important to be concious of the types of all variables used in the operation. Remember, integers do not account for decimal values and forgetting this could lead to bugs in your future programs. Below are some examples of using the division operator in C++.
 
+```c++
+int div = 4 / 2;
+double dDiv = 4.5 / 3;
+int wDiv = 4.5 / 3;
+```
+
+The values of the variables in the code above are as follows:
+
+```
+Value of div: 2
+Value of dDiv: 1.5
+Value of wDiv: 1
+```
 
 ### Modulus
+The modulus operator is used when we want to find the remainder given by dividing two numbers. When using modulus, we will want to make sure that we have this new value stored in a seperate variable for later usage. The modulus operator is more complex than the other arithmetic operators and is not avaliable in lower-level assembly programming languages. Below are some examples of using the modulus operator in C++.
 
+```c++
+int mod = 4 % 2;
+int mod2 = 7 % 3;
+int mod3 = 4 % 0;
+```
+
+The values of the variables in the code above are as follows:
+
+```
+Value of mod: 0
+Value of mod2: 1
+Value of mod3: 4
+```
 
 ## Relational Operators
