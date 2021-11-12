@@ -90,3 +90,23 @@ Value of mod3: 4
 ```
 
 ## Relational Operators
+Relational operators are simply operations that we can use on number based data types (Integers, Doubles, Floats,  etc.) to compare them. The chances are you have previously worked with all of these major operators. They include: Greater Than, Less Than, Greater Than or Equal To, Less Than or Equal To, Equal To, and Not Equal To.
+
+### GT, GTE, LT, LTE
+The operators: Greater Than, Less Than, Greater Than or Equal To and Less Than or Equal To are fairly simple to use. They are used in the same way you would use them mathematically in order to compare a series of numerical values.  Below are some examples of using theses operators in C++, remember they are used for comparison.
+
+```c++
+if ( 5 > 2 )
+  cout << "5 is greater than 2." << endl;
+if ( 4 <= 1 )
+  cout << "This should not run." << endl;
+if ( 4 < 10 )
+  cout << "4 is less than 10." << endl;
+```
+
+The output of using the comparison operators aboves are as follows:
+
+```
+5 is greater than 2.
+4 is less than 10.
+```
