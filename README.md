@@ -92,8 +92,8 @@ Value of mod3: 4
 ## Relational Operators
 Relational operators are simply operations that we can use on number based data types (Integers, Doubles, Floats,  etc.) to compare them. The chances are you have previously worked with all of these major operators. They include: Greater Than, Less Than, Greater Than or Equal To, Less Than or Equal To, Equal To, and Not Equal To.
 
-### GT, GTE, LT, LTE
-The operators: Greater Than, Less Than, Greater Than or Equal To and Less Than or Equal To are fairly simple to use. They are used in the same way you would use them mathematically in order to compare a series of numerical values.  Below are some examples of using theses operators in C++, remember they are used for comparison.
+### Greater Than, Greater Than or Equal To, Less Than, Less Than or Equal To
+The operators: Greater Than, Less Than, Greater Than or Equal To and Less Than or Equal To are fairly simple to use. They are used in the same way you would use them mathematically in order to compare a series of numerical values. Below are some examples of using theses operators in C++, remember they are used for comparison.
 
 ```c++
 if ( 5 > 2 )
@@ -109,4 +109,24 @@ The output of using the comparison operators aboves are as follows:
 ```
 5 is greater than 2.
 4 is less than 10.
+```
+
+### Equal To and Not Equal To
+The operators used for Equal To and Not Equal To are a bit different from the other relational operators; mainly, the Equal To and Not Equal To operators can also be used on other data types including strings and pointers. The Equal To and Not Equal To operators are incredibly common and used for comparison. Below are some examples of using theses operators in C++.
+
+```c++
+if ( 10.0 == 10 )
+  cout << "10.0 is equal to 10." << endl;
+if ( 'a' != 'a' )
+  cout << "This should not run." << endl;
+if ( "jacob" != "john" )
+  cout << "The name jacob is not equal to john." << endl;
+```
+
+
+The output of using the Equal To and Not Equal To operators aboves are as follows:
+
+```
+10.0 is equal to 10.
+The name jacob is not equal to john.
 ```
