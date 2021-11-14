@@ -132,7 +132,7 @@ The name jacob is not equal to john.
 ```
 
 ## Interactive Demo
-The following file is an interactive demo which makes use of some of the operators talked about above. Look through the file and notice how different primitive data types can be manipulated and compared with eachother. Try entering in some different values when prompted by the terminal and see what happens.
+The file linked at the top is an interactive demo which makes use of some of the operators talked about above. Look through the file and notice how different primitive data types can be manipulated and compared with eachother. Try entering in some different values when prompted by the terminal and see what happens.
 
 In order to compile: 
 
