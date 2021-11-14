@@ -130,3 +130,18 @@ The output of using the Equal To and Not Equal To operators aboves are as follow
 10.0 is equal to 10.
 The name jacob is not equal to john.
 ```
+
+## Interactive Demo
+The following file is an interactive demo which makes use of some of the operators talked about above. Look through the file and notice how different primitive data types can be manipulated and compared with eachother. Try entering in some different values when prompted by the terminal and see what happens.
+
+In order to compile: 
+
+```terminal
+g++ operators.cpp
+```
+
+To run the file:
+
+```terminal
+./a.out
+```
